@@ -1,8 +1,9 @@
+  var misSegundos= prompt("ingrese los segundos")
 window.addEventListener("load", function(){
     var boton = document.getElementById("segundo");
     boton.addEventListener("click", function () {
-
-        setInterval(color, 3000);
+        
+        setInterval(color, misSegundos*1000);
     });
 
     function color(){ 
